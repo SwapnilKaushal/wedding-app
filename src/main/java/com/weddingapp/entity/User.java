@@ -5,7 +5,6 @@ import jakarta.persistence.*;
 import jakarta.persistence.Table;
 import lombok.*;
 
-import javax.ejb.Local;
 import java.time.LocalDateTime;
 
 
