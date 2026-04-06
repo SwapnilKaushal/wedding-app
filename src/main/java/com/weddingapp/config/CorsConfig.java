@@ -15,7 +15,8 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://wedding-frontend-six-hazel.vercel.app"
+                                "https://wedding-frontend-six-hazel.vercel.app",
+                                "https://wedding-frontend-ju3ag780b-suppykumar-4830s-projects.vercel.app"
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*");
