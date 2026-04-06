@@ -31,6 +31,3 @@ server:
 jwt:
   secret: your-256-bit-secret-key-here-make-it-long-and-random
   expiration: 86400000    # 24 hours in ms
-
-app:
-  frontend-url: http://localhost:5173   # React dev server
